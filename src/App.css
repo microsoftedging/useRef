@@ -30,6 +30,6 @@ img{
   }
 }
 
-.spin{
+.spin-animation{
   animation: rotate 1s linear;
 }
