@@ -1,6 +1,8 @@
 import React, {useRef} from 'react';
+import Cookie from '../assets/cookie.png';
 
-const Cookie = () => {
+
+function Cookie3() {
     const imageRef = useRef();
     
     const spinCookie = () => {
@@ -11,7 +13,7 @@ const Cookie = () => {
         <div>
             <img
                 ref={imageRef}
-                src="cookie.png"
+                src={Cookie}
                 alt="cookie"
                 onClick={spinCookie}
             />
@@ -19,4 +21,4 @@ const Cookie = () => {
     );
 };
 
-export default Cookie;
+export default Cookie3;
